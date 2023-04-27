@@ -11,11 +11,11 @@ pipeline {
         stage("installing packages")
         {
             steps {
-               sh 'apt update'
-sh 'apt install git -y'            
-sh 'apt install cmake -y'                
-sh 'apt install make -y'
-sh 'apt install -y build-essential'
+               sh 'sudo apt update'
+sh 'sudo apt install git -y'            
+sh 'sudo apt install cmake -y'                
+sh 'sudo apt install make -y'
+sh 'sudo apt install -y build-essential'
             }
         }
         stage("Cloning into 'Demo-project") 
