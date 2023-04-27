@@ -22,7 +22,7 @@ sh 'apt install -y build-essential'
         {
             steps {
                 
-                sh 'cd /mnt/ && git clone https://github.com/shredhanbhar/Demo-project.git'
+                sh 'cd /mnt/ && git clone https://github.com/shredhanbhar/unit-test.git'
                 sh 'sleep 20'
             }
         }
